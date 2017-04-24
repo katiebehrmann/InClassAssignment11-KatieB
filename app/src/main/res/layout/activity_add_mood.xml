@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.inclassassignment11_katiebtake2.AddMood">
+
+    <EditText
+        android:id="@+id/whats_your_mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What is your mood?" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_out_of_ten"
+        android:hint="On a scale of 1-10, what's your mood?" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/discussed_my_feelings"
+        android:text="Have you discussed your feelings with someone?" />
+
+</LinearLayout>
